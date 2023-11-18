@@ -1,0 +1,482 @@
+html {
+   font-size: 20px;
+   font-family: "Montserrat";
+   color: #f3e2d0;
+}
+
+ul, li {
+  
+    margin: 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4e583d;
+    font-size: 0.8rem;
+    z-index: 10000; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li {
+    margin: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f3e2d0;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color:#853433;
+}
+
+.social-media {
+    position: absolute;
+    top: 0.5rem; 
+    right: 0.5rem; 
+    }
+
+.social-media a {
+    font-size: 0.8rem; 
+    margin-right: 0.3rem;
+      padding-right: 0.2em;
+   color: #4e583d;
+    
+}
+
+.social-media a:hover {
+    color:#853433;
+}
+
+header {
+  position: relative;
+  background-color: #4e583d;
+  background-size: cover;
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/branding/tagmockup.png);
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 20%;
+  height: auto;
+}
+
+.logo-container img {
+  max-width: 100%; /* Ensure the logo does not exceed its container */
+  max-height: 100%; /* Ensure the logo does not exceed its container */
+}
+
+
+body {
+    background-color: #4e583d;
+    margin:0;
+}
+
+
+  .welcome {
+    font-family: rafaella, sans-serif;
+    color: #935641;
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+    font-style: initial;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    background-size: cover;
+    position: relative;
+    background-color:#f3e2d0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+ 
+  .welcomebanner {
+    width: 40%; 
+    height: auto;
+  }
+  
+  .about-text {
+    width: 55%; 
+    text-align: right;
+  }
+
+  .about :hover {
+    color:#4e583d;
+}
+
+
+  .about {
+    color: #f3e2d0;
+     text-align: center;
+     font-family: "mrs-eaves-roman-small-caps", serif;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5;    
+     font-size: 1.1rem;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: auto;
+    background-color: #4e583d;
+
+   }
+     
+
+  .about h1 {
+    z-index: 99;
+  }  
+  .about::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1; 
+    }
+    
+.about :hover {
+    color:#f3e2d0;
+}
+
+
+.contact {
+    background-color: #B6BA99;
+    color: #4e583d;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5rem;
+    font-family:'Montserrat'
+  }
+  
+  .contact-image {
+    flex: 50%;
+    padding: 1rem; /* Add padding for spacing */
+  }
+  
+  .contact-image img {
+    width: 100%; 
+    max-width: 100%; 
+  }
+  
+  .contact-content {
+    flex: 40%;
+  }
+  
+  .contact h1 {
+    font-size: 1.5rem;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  .contact label {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #f3e2d0;
+    border-radius: 0.5rem;
+    text-align: left;
+  }
+  
+  .contact button {
+    background-color:#f3e2d0;
+    font-weight: bold;
+    color:#853433;
+  }  
+
+  .contact button:hover {
+    background-color:#853433;
+    color: #f3e2d0;
+  }  
+
+  .aboutpagelogo {
+    position: absolute;
+    top: 3cm;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+
+  .aboutpage img {
+    position: relative;
+    z-index: 9999;
+    width: 50%;
+    height: auto;
+    z-index:1000;
+  }
+
+  .aboutpage {
+    position: absolute;
+    color: #f3e2d0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    z-index:1000;
+    
+  }
+
+  .aboutpage::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4); /* Adjust the color and transparency */
+   z-index: 1;
+   
+  }
+ 
+
+  .aboutpage h2,
+  .aboutpage p {
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+    display: flex;
+    padding-left:5rem;
+    padding-right:5rem;
+  }
+  
+  .aboutpage p{
+    font-size:1.2rem;
+  }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-gap: 2rem;
+        padding: 2rem;
+        justify-content: center;
+        max-width: 100%; /* Ensure the grid does not exceed the screen size */
+        
+      }
+      
+      .grid-item {
+        position: relative;
+        width: 100%;
+        max-width: 20rem;
+        height: 20rem;
+        overflow: hidden;
+        border: 0.05rem solid #4e583d;
+        background-color: #f3e2d0;
+      }
+      
+      .grid-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: opacity 0.3s;
+      }
+      
+      .product-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(78, 58, 61, 0.7); 
+        color: #f3e2d0;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .grid-item:hover .product-title {
+        opacity: 1;
+      }
+
+  
+      footer {
+        padding:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #f3e2d0;
+    
+      }
+      
+      .footerabout p {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box; 
+          
+      }
+      
+    
+      
+      
+        footer ul {
+          display: flex; 
+          flex-direction: row; 
+          justify-content: center; 
+          align-items: center;
+          margin: 0;
+          list-style: none; 
+          margin-top:0.5rem;
+        }
+        
+        footer ul li {
+          display: block;
+          margin-bottom: 0.5rem;
+          text-align: justify;
+          padding-left:1rem;
+        }
+      
+      footer li {
+            margin: 0 0.5rem;
+          }
+        
+
+
+
+      
+  
+.footermenu {
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+   }
+
+.footermenu ul {
+    list-style: none;
+    justify-content: left;
+   
+}
+
+.footermenu ul li {
+    margin: 0.5rem;    
+}
+
+.footermenu ul li a {
+    text-decoration: none;
+    color: #f3e2d0;
+    font-weight: 400;
+}
+
+.footermenu ul li a:hover {
+    color:#853433;
+}
+
+footer button {
+  font-weight: bold;
+  text-align: justify;
+  background-color: #f3e2d0;
+  border: none;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  list-style: none;
+  border-radius: 2.5rem; 
+  padding: 0.4rem 0.8rem; 
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom:1rem;
+  margin-top:1rem;
+  
+ }
+
+
+footer button:hover {
+  background-color: #853433;
+  color: #f3e2d0;
+  border-radius: 2.5rem; 
+  padding: 0.4rem 0.8rem; 
+  border: 0.005rem solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+footer button a {
+  text-decoration: none;
+  color: #4e583d;
+}
+
+footer button a:hover {
+  color: #f3e2d0;
+   
+}
+
+footer button:active {
+  color: #f3e2d0;
+}
+
+
+.explore {
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.explore:hover {
+  color: #bbbbba;
+}
+
+footer, p {
+ font-size: 0.7rem;
+  margin-top:0;
+}
