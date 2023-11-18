@@ -233,9 +233,17 @@ body {
   }
   
   .contact button {
+    font-family: 'Montserrat';
     background-color:#f3e2d0;
     font-weight: bold;
     color:#853433;
+    border-radius: 1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    border: 0.05rem solid #853433;
+    font-size: 1rem;
   }  
 
   .contact button:hover {
@@ -468,6 +476,7 @@ footer button:active {
 
 
 .explore {
+
   text-align: justify;
   font-size: 0.8rem;
 }
